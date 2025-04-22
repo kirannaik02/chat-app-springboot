@@ -15,6 +15,6 @@ import java.time.LocalDateTime;
         private Long groupId;
         private String content;
         private LocalDateTime timestamp;
-    }
+}
 
 
