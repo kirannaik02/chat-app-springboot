@@ -30,7 +30,6 @@ public class MessageController {
                 "/user/" + message.getRecipientId() + "/queue/messages",
                 response
         );
-
     }
     // Endpoint for group message
     @MessageMapping("/group-message")
