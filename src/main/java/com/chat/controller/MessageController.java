@@ -32,7 +32,6 @@ public class MessageController {
         );
 
     }
-
     // Endpoint for group message
     @MessageMapping("/group-message")
     public void sendGroupMessage(MessageRequestDTO message) {
