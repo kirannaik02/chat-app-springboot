@@ -40,7 +40,7 @@ public class MessageController {
         response.setGroupId(message.getGroupId());
         response.setTimestamp(message.getTimestamp());
 
-        // Send message to the group topic
+        //send message to group
         messagingTemplate.convertAndSend("/group/" + message.getGroupId(), response);
     }
 }
